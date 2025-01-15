@@ -1,0 +1,188 @@
+{
+	"menu": {
+		"home": "Home",
+		"services": "Services",
+		"projects": "Projects",
+		"certificates": "Certificates",
+		"contacts": "Contacts",
+		"toggle": "Toggle menu"
+	},
+	"hero": {
+		"title": "Kazakhstan Service Company",
+		"subtitle": "We provide creation, protection, and support for IT and engineering systems, helping your business operate efficiently and securely.",
+		"buttonText": "Submit a Request",
+		"buttonLabel": "Submit a Request",
+		"imageAlt": "Hero image reflecting the company's mission"
+	},
+	"partners": {
+		"title": "Our Partners",
+		"cisco": {
+			"alt": "Cisco Logo",
+			"aria": "Visit Cisco's website"
+		},
+		"huawei": {
+			"alt": "Huawei Logo",
+			"aria": "Visit Huawei's website"
+		},
+		"juniper": {
+			"alt": "Juniper Logo",
+			"aria": "Visit Juniper's website"
+		},
+		"kaspersky": {
+			"alt": "Kaspersky Logo",
+			"aria": "Visit Kaspersky's website"
+		},
+		"paloalto": {
+			"alt": "Palo Alto Networks Logo",
+			"aria": "Visit Palo Alto Networks' website"
+		},
+		"zte": {
+			"alt": "ZTE Logo",
+			"aria": "Visit ZTE's website"
+		}
+	},
+	"services": {
+		"title": "Comprehensive IT Services",
+		"subtitle": "With years of experience and a deep approach, we implement reliable, easily scalable projects ready for integration into your existing infrastructure.",
+		"items": {
+			"dataCenters": {
+				"title": "Data Centers and Network Solutions",
+				"description": "Reliable and scalable solutions for data storage and network management, ensuring stable operation of your IT resources."
+			},
+			"dataProtection": {
+				"title": "Comprehensive Data Protection",
+				"description": "Advanced solutions to protect your information from external and internal threats, ensuring confidentiality and compliance with security standards."
+			},
+			"infrastructure": {
+				"title": "Infrastructure Solutions",
+				"description": "Continuous power and optimal temperature control to ensure the reliability and longevity of your systems."
+			},
+			"videoSurveillance": {
+				"title": "Intelligent Video Surveillance",
+				"description": "Modern monitoring and analytics systems to ensure security and efficient management of facilities."
+			},
+			"dispatching": {
+				"title": "Dispatching and Automation",
+				"description": "Innovative process management systems for monitoring, control, and increasing operational efficiency."
+			},
+			"ipTelephony": {
+				"title": "Modern IP Telephony Solutions",
+				"description": "Efficient communication for your business using the latest IP telephony technologies, providing flexibility and cost savings."
+			}
+		}
+	},
+	"teams": {
+		"title": "Our Values and Motivation",
+		"paragraph1": "At GGNetworks, we strive to create a world where businesses can operate safely and efficiently using the most advanced IT and engineering solutions. Our values are trust, innovation, and continuous development.",
+		"paragraph2": "We believe that every project is a step towards building a future where technology serves to foster business prosperity and improve lives.",
+		"imageAlt1": "GGNetworks Office - Image 1",
+		"imageAlt2": "GGNetworks Office - Image 2"
+	},
+	"projects": {
+		"title": "We Shape the Future with Leading Companies",
+		"subtitle": "We provide the best IT solutions for businesses, ensuring the reliability, security, and growth of your technologies.",
+		"items": {
+			"ktz": {
+				"name": "JSC \"NC \"KTZ\"",
+				"description": "Modernization of PBX through the introduction of IP-PBX in the headquarters. First implementation in Kazakhstan of the WPA3-Enterprise EPA-TLS standard for WiFi6.",
+				"alt": "JSC \"NC \"KTZ\" Logo"
+			},
+			"kaztemirtrans": {
+				"name": "JSC \"Kaztemirtrans\"",
+				"description": "Installation and configuration of a distributed corporate network. Ensured stable communication between company branches.",
+				"alt": "JSC \"Kaztemirtrans\" Logo"
+			},
+			"ttk": {
+				"name": "JSC \"TTK\"",
+				"description": "Installation and configuration of Huawei DWDM equipment. Provided high-speed and reliable backbone connectivity.",
+				"alt": "JSC \"TTK\" Logo"
+			},
+			"cik": {
+				"name": "JSC \"CIK\"",
+				"description": "Supply and configuration of NGFW CheckPoint equipment. Enhanced the company's network security level.",
+				"alt": "JSC \"CIK\" Logo"
+			},
+			"knb": {
+				"name": "KNB",
+				"description": "Implementation of the \"Cyber Shield RK\" project based on TrendMicro software. Comprehensive protection against cyber threats ensured.",
+				"alt": "KNB Logo"
+			},
+			"nazarbayevUniversity": {
+				"name": "Nazarbayev University",
+				"description": "Support for server equipment, data storage systems, and uninterrupted power supply. Ensured high availability of the university's IT resources.",
+				"alt": "Nazarbayev University Logo"
+			}
+		}
+	},
+	"certificates": {
+		"title": "Our Certifications",
+		"subtitle": "We take pride in our experts holding numerous certifications, confirming the highest level of competence in networking and IT solutions.",
+		"imageAlt": "Certificates",
+		"items": {
+			"ajer": "Advanced Junos Enterprise Routing (AJER)",
+			"ccna": "Cisco Certified Network Associate Routing and Switching",
+			"ccnp": "Cisco Certified Network Professional Enterprise",
+			"ccse": "Cisco Certified Specialist - Enterprise Core",
+			"hcia": "HCIA Routing and Switching",
+			"linuxEssentials": "Linux Essentials Professional Development",
+			"mikrotik": "MikroTik Certified Network Associate",
+			"paloAltoCloud": "PaloAlto Fundamentals of Cloud Security",
+			"paloAltoSOC": "PaloAlto Fundamentals of SOC (Security Operations Center)"
+		}
+	},
+	"map": {
+		"title": "Our Office",
+		"subtitle": "We are located in the center of Astana. Visit our office or contact us using the provided details.",
+		"links": {
+			"office": "GGNetworks",
+			"networkEquipment": "Network equipment in Astana",
+			"telecommunicationEquipment": "Telecommunication equipment in Astana"
+		},
+		"address": "Dostyk Street, 5/2, Astana, Kazakhstan.",
+		"contact": "Contact us:"
+	},
+	"footer": {
+		"followUs": "Follow Us",
+		"rightsReserved": "All rights reserved.",
+		"services": {
+			"title": "Services",
+			"consulting": "IT Consulting",
+			"infrastructure": "Infrastructure Support",
+			"cybersecurity": "Cybersecurity"
+		},
+		"social": {
+			"instagram": "Instagram"
+		},
+		"legal": {
+			"title": "Legal Info",
+			"privacyPolicy": "Privacy Policy"
+		}
+	},
+	"contactDialog": {
+		"triggerButton": "Contact Us",
+		"title": "Contact Us",
+		"description": "We’ll respond as soon as possible.",
+		"fullNameLabel": "Full Name",
+		"fullNamePlaceholder": "John Doe",
+		"emailLabel": "Email",
+		"emailPlaceholder": "example@example.com",
+		"messageLabel": "Message",
+		"messagePlaceholder": "How can we help you?",
+		"submitButton": "Submit",
+		"toast": {
+			"title": "Your request has been submitted!",
+			"description": "Thank you for reaching out. We’ll get back to you shortly."
+		},
+		"validation": {
+			"fullName": {
+				"minLength": "Full name must be at least 2 characters long."
+			},
+			"email": {
+				"invalid": "Please enter a valid email address."
+			},
+			"message": {
+				"minLength": "Message must be at least 10 characters long."
+			}
+		}
+	}
+}
