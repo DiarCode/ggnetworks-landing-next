@@ -11,7 +11,7 @@ const CallbackWidget = () => {
       language: "RU",
       domain: "pbx.ggnet.kz",
       protocol: "https://",
-      token: process.env.NEXT_PUBLIC_CALLBACK_TOKEN,
+      token: "2fe2d97d-915d-4e4d-abc8-123f7c267ba2",
       webSocket: {
         protocol: "wss://",
         path: "/ws",
