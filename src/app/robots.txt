@@ -1,0 +1,36 @@
+# Sitemap
+Sitemap: https://ggnetworks.kz/sitemap.xml
+
+# Allow all search engines to crawl the site
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+Disallow: /login/
+Disallow: /register/
+
+# Block specific file types from being indexed
+Disallow: /*.env$
+Disallow: /*.log$
+Disallow: /*.json$
+Disallow: /*.sql$
+
+# Allow crawling for all other pages
+Allow: /
+
+# Specific bots rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Block certain bots (unwanted crawlers)
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SEMrushBot
+Disallow: /

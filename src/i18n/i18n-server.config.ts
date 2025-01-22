@@ -26,12 +26,12 @@ async function initI18next(lang: Locales) {
 }
 
 // This function will be used in our server components for the translation
-export async function createTranslation(ns: string) {
+export async function createTranslation() {
 	const lang = await getLocale()
 	const i18nextInstance = await initI18next(lang)
 
 	return {
-		t: i18nextInstance.getFixedT(lang, Array.isArray(ns) ? ns[0] : ns),
+		t: i18nextInstance.getFixedT(lang),
 	}
 }
 

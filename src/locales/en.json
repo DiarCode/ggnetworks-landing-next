@@ -184,5 +184,10 @@
 				"minLength": "Message must be at least 10 characters long."
 			}
 		}
+	},
+	"seo": {
+		"title": "GGNetworks - Advanced IT Solutions",
+		"description": "GGNetworks offers reliable IT consulting, infrastructure support, and cybersecurity solutions tailored to your business needs.",
+		"keywords": "IT solutions, cybersecurity, infrastructure, Kazakhstan, consulting"
 	}
 }
