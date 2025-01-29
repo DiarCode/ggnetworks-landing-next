@@ -1,17 +1,31 @@
 "use client";
 
+import { useLocale } from "@/providers/locale.provider";
 import Script from "next/script";
 import { useEffect } from "react";
 
+const tokens = {
+  kk: "2fe2d97d-915d-4e4d-abc8-123f7c267ba2",
+  ru: "144e53b5-575c-425d-9e22-c3415e6f06ab",
+  en: "684a6d9d-ffdf-4abc-8b97-bb24228bc866",
+};
+
+const locales = {
+  kk: "KZ",
+  ru: "RU",
+  en: "EN",
+};
+
 const CallbackWidget = () => {
+  const locale = useLocale();
+
   useEffect(() => {
-    // Ensure callbackWidget is available globally
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     (window as any).callbackWidget = {
-      language: "RU",
+      language: locales[locale],
       domain: "pbx.ggnet.kz",
       protocol: "https://",
-      token: "2fe2d97d-915d-4e4d-abc8-123f7c267ba2",
+      token: tokens[locale],
       webSocket: {
         protocol: "wss://",
         path: "/ws",
@@ -78,7 +92,7 @@ const CallbackWidget = () => {
           },
         },
       },
-      close: true,
+      close: false,
       phoneMask: {
         mask: "+{7} (000) 000-00-00",
         lazy: false,
@@ -91,10 +105,11 @@ const CallbackWidget = () => {
       onFormClose: null,
       onFormOpen: null,
     };
-  }, []);
+  }, [locale]);
 
   return (
     <Script
+      key={locale}
       src="https://pbx.ggnet.kz/api/Callback/index.js"
       type="module"
       strategy="lazyOnload"
