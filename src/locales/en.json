@@ -39,6 +39,38 @@
 		"zte": {
 			"alt": "ZTE Logo",
 			"aria": "Visit ZTE's website"
+		},
+		"dell": {
+			"alt": "Dell Logo",
+			"aria": "Visit DELL's website"
+		},
+		"vmware": {
+			"alt": "VMware Logo",
+			"aria": "Visit VMware's website"
+		},
+		"veem": {
+			"alt": "Veem Logo",
+			"aria": "Visit Veem's website"
+		},
+		"trendmicro": {
+			"alt": "TrendMicro Logo",
+			"aria": "Visit TrendMicro's website"
+		},
+		"netup": {
+			"alt": "NetUP Logo",
+			"aria": "Visit NetUP's website"
+		},
+		"tntsecure": {
+			"alt": "T&T Security Logo",
+			"aria": "Visit T&T Security's website"
+		},
+		"checkpoint": {
+			"alt": "CheckPoint Logo",
+			"aria": "Visit CheckPoint's website"
+		},
+		"fortinet": {
+			"alt": "FortiNet Logo",
+			"aria": "Visit FortiNet's website"
 		}
 	},
 	"services": {
@@ -102,15 +134,20 @@
 				"description": "Supply and configuration of NGFW CheckPoint equipment. Enhanced the company's network security level.",
 				"alt": "JSC \"CIK\" Logo"
 			},
-			"knb": {
-				"name": "KNB",
-				"description": "Implementation of the \"Cyber Shield RK\" project based on TrendMicro software. Comprehensive protection against cyber threats ensured.",
-				"alt": "KNB Logo"
+			"airastana": {
+				"name": "Air Astana",
+				"description": "Provided comprehensive IT infrastructure support, including server maintenance, data storage optimization, and uninterrupted power supply solutions.",
+				"alt": "Air Astana Logo"
 			},
-			"nazarbayevUniversity": {
-				"name": "Nazarbayev University",
-				"description": "Support for server equipment, data storage systems, and uninterrupted power supply. Ensured high availability of the university's IT resources.",
-				"alt": "Nazarbayev University Logo"
+			"astanatower": {
+				"name": "Business Center \"Astana Tower\"",
+				"description": "Delivered robust IT infrastructure services, focusing on server equipment, secure data storage, and reliable power backup systems.",
+				"alt": "Astana Tower Logo"
+			},
+			"marriott": {
+				"name": "SAAD Hotel Astana",
+				"description": "Implemented advanced IT solutions, including server management, scalable data storage, and fail-safe power systems.",
+				"alt": "SAAD Hotel Astana Logo"
 			}
 		}
 	},
