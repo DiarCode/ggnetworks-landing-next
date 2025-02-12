@@ -110,47 +110,129 @@
 		"imageAlt1": "GGNetworks Office - Image 1",
 		"imageAlt2": "GGNetworks Office - Image 2"
 	},
+
 	"projects": {
 		"title": "We Shape the Future with Leading Companies",
 		"subtitle": "We provide the best IT solutions for businesses, ensuring the reliability, security, and growth of your technologies.",
 		"items": {
 			"ktz": {
 				"name": "JSC \"NC \"KTZ\"",
-				"description": "Modernization of PBX through the introduction of IP-PBX in the headquarters. First implementation in Kazakhstan of the WPA3-Enterprise EPA-TLS standard for WiFi6.",
+				"description": "Modernized PBX with IP-PBX at headquarters. First in Kazakhstan to implement WPA3-Enterprise EPA-TLS for WiFi6 security.",
 				"alt": "JSC \"NC \"KTZ\" Logo"
 			},
 			"kaztemirtrans": {
 				"name": "JSC \"Kaztemirtrans\"",
-				"description": "Installation and configuration of a distributed corporate network. Ensured stable communication between company branches.",
+				"description": "Deployed a secure corporate network to ensure stable communication across branches.",
 				"alt": "JSC \"Kaztemirtrans\" Logo"
 			},
 			"ttk": {
 				"name": "JSC \"TTK\"",
-				"description": "Installation and configuration of Huawei DWDM equipment. Provided high-speed and reliable backbone connectivity.",
+				"description": "Installed and configured Huawei DWDM for high-speed, reliable backbone connectivity.",
 				"alt": "JSC \"TTK\" Logo"
 			},
 			"cik": {
 				"name": "JSC \"CIK\"",
-				"description": "Supply and configuration of NGFW CheckPoint equipment. Enhanced the company's network security level.",
+				"description": "Enhanced network security with NGFW CheckPoint solutions.",
 				"alt": "JSC \"CIK\" Logo"
 			},
 			"airastana": {
 				"name": "Air Astana",
-				"description": "Provided comprehensive IT infrastructure support, including server maintenance, data storage optimization, and uninterrupted power supply solutions.",
+				"description": "Supplied TrendMicro security licenses and Cisco telecom equipment for seamless IT operations.",
 				"alt": "Air Astana Logo"
 			},
 			"astanatower": {
 				"name": "Business Center \"Astana Tower\"",
-				"description": "Delivered robust IT infrastructure services, focusing on server equipment, secure data storage, and reliable power backup systems.",
+				"description": "Delivered advanced IT infrastructure, including seamless WiFi, server solutions, and conference systems.",
 				"alt": "Astana Tower Logo"
 			},
 			"marriott": {
 				"name": "SAAD Hotel Astana",
-				"description": "Implemented advanced IT solutions, including server management, scalable data storage, and fail-safe power systems.",
+				"description": "Implemented TrendMicro cybersecurity solutions for top-tier data protection.",
 				"alt": "SAAD Hotel Astana Logo"
+			},
+			"eng-tech-center-udp": {
+				"name": "Engineering and Technical Center UDP RK",
+				"description": "Supplied Cisco networking and SmartNet support, plus security solutions from CheckPoint and TrendMicro.",
+				"alt": "Engineering and Technical Center UDP RK Logo"
+			},
+			"eng-center-mto": {
+				"name": "Engineering Center for MTO",
+				"description": "Delivered cybersecurity solutions to prevent unauthorized changes and ensure business process stability.",
+				"alt": "Engineering Center for MTO Logo"
+			},
+			"jusan-mobile": {
+				"name": "Jusan Mobile",
+				"description": "Provided Cisco SmartNet subscription and telecom equipment for seamless connectivity.",
+				"alt": "Jusan Mobile Logo"
+			},
+			"admin-buildings": {
+				"name": "Presidential and Government Administrative Buildings",
+				"description": "Supplied TrendMicro security licenses to ensure critical data protection.",
+				"alt": "Presidential and Government Administrative Buildings Logo"
+			},
+			"tnk-kazchrome": {
+				"name": "JSC \"TNK Kazchrome\"",
+				"description": "Technical service and maintenance of railway signaling systems for safe industrial operations.",
+				"alt": "JSC \"TNK Kazchrome\" Logo"
+			},
+			"health-ministry": {
+				"name": "Ministry of Healthcare RK",
+				"description": "Delivered Cisco SmartNet licenses to enhance IT security and system reliability.",
+				"alt": "Ministry of Healthcare RK Logo"
+			},
+			"labor-resource-center": {
+				"name": "Labor Resource Development Center",
+				"description": "Implemented Cisco SmartNet solutions for secure and efficient digital infrastructure.",
+				"alt": "Labor Resource Development Center Logo"
+			},
+			"nazarbayev-university": {
+				"name": "Nazarbayev University",
+				"description": "Supplied Cisco SmartNet to enhance communication and research IT capabilities.",
+				"alt": "Nazarbayev University Logo"
+			},
+			"qazaqgaz": {
+				"name": "NC \"QazaqGaz\"",
+				"description": "Provided IT management and technical support for uninterrupted operations.",
+				"alt": "NC \"QazaqGaz\" Logo"
+			},
+			"combridge": {
+				"name": "COMBRIDGE SRL",
+				"description": "Installed and configured Cisco networking solutions for Toyota Center Kazakhstan.",
+				"alt": "COMBRIDGE SRL Logo"
+			},
+			"agrarian-credit-corp": {
+				"name": "Agrarian Credit Corporation",
+				"description": "Implemented DLP \"CyberStrazh\" to ensure full data protection compliance.",
+				"alt": "Agrarian Credit Corporation Logo"
+			},
+			"national-testing-center": {
+				"name": "National Testing Center",
+				"description": "Conducted cybersecurity training to enhance IT security expertise.",
+				"alt": "National Testing Center Logo"
+			},
+			"qazpatent": {
+				"name": "National Institute of Intellectual Property (Qazpatent)",
+				"description": "Implemented IT solutions to safeguard intellectual property and digital assets.",
+				"alt": "National Institute of Intellectual Property Logo"
+			},
+			"bazis-construction": {
+				"name": "Bazis Construction",
+				"description": "Delivered CheckPoint security solutions for construction IT infrastructure protection.",
+				"alt": "Bazis Construction Logo"
+			},
+			"eurasian-bank": {
+				"name": "Eurasian Bank",
+				"description": "Supplied Cisco security licenses to ensure financial data protection.",
+				"alt": "Eurasian Bank Logo"
+			},
+			"nit": {
+				"name": "National Information Technologies JSC",
+				"description": "Provided industrial-grade power solutions to support critical e-government infrastructure.",
+				"alt": "National Information Technologies JSC Logo"
 			}
 		}
 	},
+
 	"certificates": {
 		"title": "Our Certifications",
 		"subtitle": "We take pride in our experts holding numerous certifications, confirming the highest level of competence in networking and IT solutions.",
