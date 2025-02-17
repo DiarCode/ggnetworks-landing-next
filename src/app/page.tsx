@@ -22,9 +22,9 @@ export default function Home() {
 
       <HomeTeam />
 
-      <HomeProjects />
-
       <HomeCertificates />
+
+      <HomeProjects />
 
       <HomeMap />
 

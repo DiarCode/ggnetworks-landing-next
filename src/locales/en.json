@@ -1,312 +1,323 @@
 {
-	"menu": {
-		"home": "Home",
-		"services": "Services",
-		"projects": "Projects",
-		"certificates": "Certificates",
-		"contacts": "Contacts",
-		"toggle": "Toggle menu"
-	},
-	"hero": {
-		"title": "Kazakhstan Service Company",
-		"subtitle": "We provide creation, protection, and support for IT and engineering systems, helping your business operate efficiently and securely.",
-		"buttonText": "Submit a Request",
-		"buttonLabel": "Submit a Request",
-		"imageAlt": "Hero image reflecting the company's mission"
-	},
-	"partners": {
-		"title": "Our Partners",
-		"cisco": {
-			"alt": "Cisco Logo",
-			"aria": "Visit Cisco's website"
-		},
-		"huawei": {
-			"alt": "Huawei Logo",
-			"aria": "Visit Huawei's website"
-		},
-		"juniper": {
-			"alt": "Juniper Logo",
-			"aria": "Visit Juniper's website"
-		},
-		"kaspersky": {
-			"alt": "Kaspersky Logo",
-			"aria": "Visit Kaspersky's website"
-		},
-		"paloalto": {
-			"alt": "Palo Alto Networks Logo",
-			"aria": "Visit Palo Alto Networks' website"
-		},
-		"zte": {
-			"alt": "ZTE Logo",
-			"aria": "Visit ZTE's website"
-		},
-		"dell": {
-			"alt": "Dell Logo",
-			"aria": "Visit DELL's website"
-		},
-		"vmware": {
-			"alt": "VMware Logo",
-			"aria": "Visit VMware's website"
-		},
-		"veem": {
-			"alt": "Veem Logo",
-			"aria": "Visit Veem's website"
-		},
-		"trendmicro": {
-			"alt": "TrendMicro Logo",
-			"aria": "Visit TrendMicro's website"
-		},
-		"netup": {
-			"alt": "NetUP Logo",
-			"aria": "Visit NetUP's website"
-		},
-		"tntsecure": {
-			"alt": "T&T Security Logo",
-			"aria": "Visit T&T Security's website"
-		},
-		"checkpoint": {
-			"alt": "CheckPoint Logo",
-			"aria": "Visit CheckPoint's website"
-		},
-		"fortinet": {
-			"alt": "FortiNet Logo",
-			"aria": "Visit FortiNet's website"
-		}
-	},
-	"services": {
-		"title": "Comprehensive IT Services",
-		"subtitle": "With years of experience and a deep approach, we implement reliable, easily scalable projects ready for integration into your existing infrastructure.",
-		"items": {
-			"dataCenters": {
-				"title": "Data Centers and Network Solutions",
-				"description": "Reliable and scalable solutions for data storage and network management, ensuring stable operation of your IT resources."
-			},
-			"dataProtection": {
-				"title": "Comprehensive Data Protection",
-				"description": "Advanced solutions to protect your information from external and internal threats, ensuring confidentiality and compliance with security standards."
-			},
-			"infrastructure": {
-				"title": "Infrastructure Solutions",
-				"description": "Continuous power and optimal temperature control to ensure the reliability and longevity of your systems."
-			},
-			"videoSurveillance": {
-				"title": "Intelligent Video Surveillance",
-				"description": "Modern monitoring and analytics systems to ensure security and efficient management of facilities."
-			},
-			"dispatching": {
-				"title": "Dispatching and Automation",
-				"description": "Innovative process management systems for monitoring, control, and increasing operational efficiency."
-			},
-			"ipTelephony": {
-				"title": "Modern IP Telephony Solutions",
-				"description": "Efficient communication for your business using the latest IP telephony technologies, providing flexibility and cost savings."
-			}
-		}
-	},
-	"teams": {
-		"title": "Our Values and Motivation",
-		"paragraph1": "At GGNetworks, we strive to create a world where businesses can operate safely and efficiently using the most advanced IT and engineering solutions. Our values are trust, innovation, and continuous development.",
-		"paragraph2": "We believe that every project is a step towards building a future where technology serves to foster business prosperity and improve lives.",
-		"imageAlt1": "GGNetworks Office - Image 1",
-		"imageAlt2": "GGNetworks Office - Image 2"
-	},
+  "menu": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "certificates": "Certificates",
+    "contacts": "Contacts",
+    "toggle": "Toggle menu"
+  },
 
-	"projects": {
-		"title": "We Shape the Future with Leading Companies",
-		"subtitle": "We provide the best IT solutions for businesses, ensuring the reliability, security, and growth of your technologies.",
-		"items": {
-			"ktz": {
-				"name": "JSC \"NC \"KTZ\"",
-				"description": "Modernized PBX with IP-PBX at headquarters. First in Kazakhstan to implement WPA3-Enterprise EPA-TLS for WiFi6 security.",
-				"alt": "JSC \"NC \"KTZ\" Logo"
-			},
-			"kaztemirtrans": {
-				"name": "JSC \"Kaztemirtrans\"",
-				"description": "Deployed a secure corporate network to ensure stable communication across branches.",
-				"alt": "JSC \"Kaztemirtrans\" Logo"
-			},
-			"ttk": {
-				"name": "JSC \"TTK\"",
-				"description": "Installed and configured Huawei DWDM for high-speed, reliable backbone connectivity.",
-				"alt": "JSC \"TTK\" Logo"
-			},
-			"cik": {
-				"name": "JSC \"CIK\"",
-				"description": "Enhanced network security with NGFW CheckPoint solutions.",
-				"alt": "JSC \"CIK\" Logo"
-			},
-			"airastana": {
-				"name": "Air Astana",
-				"description": "Supplied TrendMicro security licenses and Cisco telecom equipment for seamless IT operations.",
-				"alt": "Air Astana Logo"
-			},
-			"astanatower": {
-				"name": "Business Center \"Astana Tower\"",
-				"description": "Delivered advanced IT infrastructure, including seamless WiFi, server solutions, and conference systems.",
-				"alt": "Astana Tower Logo"
-			},
-			"marriott": {
-				"name": "SAAD Hotel Astana",
-				"description": "Implemented TrendMicro cybersecurity solutions for top-tier data protection.",
-				"alt": "SAAD Hotel Astana Logo"
-			},
-			"eng-tech-center-udp": {
-				"name": "Engineering and Technical Center UDP RK",
-				"description": "Supplied Cisco networking and SmartNet support, plus security solutions from CheckPoint and TrendMicro.",
-				"alt": "Engineering and Technical Center UDP RK Logo"
-			},
-			"eng-center-mto": {
-				"name": "Engineering Center for MTO",
-				"description": "Delivered cybersecurity solutions to prevent unauthorized changes and ensure business process stability.",
-				"alt": "Engineering Center for MTO Logo"
-			},
-			"jusan-mobile": {
-				"name": "Jusan Mobile",
-				"description": "Provided Cisco SmartNet subscription and telecom equipment for seamless connectivity.",
-				"alt": "Jusan Mobile Logo"
-			},
-			"admin-buildings": {
-				"name": "Presidential and Government Administrative Buildings",
-				"description": "Supplied TrendMicro security licenses to ensure critical data protection.",
-				"alt": "Presidential and Government Administrative Buildings Logo"
-			},
-			"tnk-kazchrome": {
-				"name": "JSC \"TNK Kazchrome\"",
-				"description": "Technical service and maintenance of railway signaling systems for safe industrial operations.",
-				"alt": "JSC \"TNK Kazchrome\" Logo"
-			},
-			"health-ministry": {
-				"name": "Ministry of Healthcare RK",
-				"description": "Delivered Cisco SmartNet licenses to enhance IT security and system reliability.",
-				"alt": "Ministry of Healthcare RK Logo"
-			},
-			"labor-resource-center": {
-				"name": "Labor Resource Development Center",
-				"description": "Implemented Cisco SmartNet solutions for secure and efficient digital infrastructure.",
-				"alt": "Labor Resource Development Center Logo"
-			},
-			"nazarbayev-university": {
-				"name": "Nazarbayev University",
-				"description": "Supplied Cisco SmartNet to enhance communication and research IT capabilities.",
-				"alt": "Nazarbayev University Logo"
-			},
-			"qazaqgaz": {
-				"name": "NC \"QazaqGaz\"",
-				"description": "Provided IT management and technical support for uninterrupted operations.",
-				"alt": "NC \"QazaqGaz\" Logo"
-			},
-			"combridge": {
-				"name": "COMBRIDGE SRL",
-				"description": "Installed and configured Cisco networking solutions for Toyota Center Kazakhstan.",
-				"alt": "COMBRIDGE SRL Logo"
-			},
-			"agrarian-credit-corp": {
-				"name": "Agrarian Credit Corporation",
-				"description": "Implemented DLP \"CyberStrazh\" to ensure full data protection compliance.",
-				"alt": "Agrarian Credit Corporation Logo"
-			},
-			"national-testing-center": {
-				"name": "National Testing Center",
-				"description": "Conducted cybersecurity training to enhance IT security expertise.",
-				"alt": "National Testing Center Logo"
-			},
-			"qazpatent": {
-				"name": "National Institute of Intellectual Property (Qazpatent)",
-				"description": "Implemented IT solutions to safeguard intellectual property and digital assets.",
-				"alt": "National Institute of Intellectual Property Logo"
-			},
-			"bazis-construction": {
-				"name": "Bazis Construction",
-				"description": "Delivered CheckPoint security solutions for construction IT infrastructure protection.",
-				"alt": "Bazis Construction Logo"
-			},
-			"eurasian-bank": {
-				"name": "Eurasian Bank",
-				"description": "Supplied Cisco security licenses to ensure financial data protection.",
-				"alt": "Eurasian Bank Logo"
-			},
-			"nit": {
-				"name": "National Information Technologies JSC",
-				"description": "Provided industrial-grade power solutions to support critical e-government infrastructure.",
-				"alt": "National Information Technologies JSC Logo"
-			}
-		}
-	},
+  "hero": {
+    "title": "Kazakhstan Service Company",
+    "subtitle": "We provide creation, protection, and support for IT and engineering systems, helping your business operate efficiently and securely.",
+    "buttonText": "Submit a Request",
+    "buttonLabel": "Submit a Request",
+    "imageAlt": "Hero image reflecting the company's mission"
+  },
 
-	"certificates": {
-		"title": "Our Certifications",
-		"subtitle": "We take pride in our experts holding numerous certifications, confirming the highest level of competence in networking and IT solutions.",
-		"imageAlt": "Certificates",
-		"items": {
-			"ajer": "Advanced Junos Enterprise Routing (AJER)",
-			"ccna": "Cisco Certified Network Associate Routing and Switching",
-			"ccnp": "Cisco Certified Network Professional Enterprise",
-			"ccse": "Cisco Certified Specialist - Enterprise Core",
-			"hcia": "HCIA Routing and Switching",
-			"linuxEssentials": "Linux Essentials Professional Development",
-			"mikrotik": "MikroTik Certified Network Associate",
-			"paloAltoCloud": "PaloAlto Fundamentals of Cloud Security",
-			"paloAltoSOC": "PaloAlto Fundamentals of SOC (Security Operations Center)"
-		}
-	},
-	"map": {
-		"title": "Our Office",
-		"subtitle": "We are located in the center of Astana. Visit our office or contact us using the provided details.",
-		"links": {
-			"office": "GGNetworks",
-			"networkEquipment": "Network equipment in Astana",
-			"telecommunicationEquipment": "Telecommunication equipment in Astana"
-		},
-		"address": "Dostyk Street, 5/2, Astana, Kazakhstan.",
-		"contact": "Contact us:"
-	},
-	"footer": {
-		"followUs": "Follow Us",
-		"rightsReserved": "All rights reserved.",
-		"services": {
-			"title": "Services",
-			"consulting": "IT Consulting",
-			"infrastructure": "Infrastructure Support",
-			"cybersecurity": "Cybersecurity"
-		},
-		"social": {
-			"instagram": "Instagram"
-		},
-		"legal": {
-			"title": "Legal Info",
-			"privacyPolicy": "Privacy Policy"
-		}
-	},
-	"contactDialog": {
-		"triggerButton": "Contact Us",
-		"title": "Contact Us",
-		"description": "We’ll respond as soon as possible.",
-		"fullNameLabel": "Full Name",
-		"fullNamePlaceholder": "John Doe",
-		"emailLabel": "Email",
-		"emailPlaceholder": "example@example.com",
-		"messageLabel": "Message",
-		"messagePlaceholder": "How can we help you?",
-		"submitButton": "Submit",
-		"toast": {
-			"title": "Your request has been submitted!",
-			"description": "Thank you for reaching out. We’ll get back to you shortly."
-		},
-		"validation": {
-			"fullName": {
-				"minLength": "Full name must be at least 2 characters long."
-			},
-			"email": {
-				"invalid": "Please enter a valid email address."
-			},
-			"message": {
-				"minLength": "Message must be at least 10 characters long."
-			}
-		}
-	},
-	"seo": {
-		"title": "GGNetworks - Advanced IT Solutions",
-		"description": "GGNetworks offers reliable IT consulting, infrastructure support, and cybersecurity solutions tailored to your business needs.",
-		"keywords": "IT solutions, cybersecurity, infrastructure, Kazakhstan, consulting"
-	}
+  "partners": {
+    "title": "Our Partners",
+    "cisco": {
+      "alt": "Cisco Logo",
+      "aria": "Visit Cisco's website"
+    },
+    "huawei": {
+      "alt": "Huawei Logo",
+      "aria": "Visit Huawei's website"
+    },
+    "juniper": {
+      "alt": "Juniper Logo",
+      "aria": "Visit Juniper's website"
+    },
+    "kaspersky": {
+      "alt": "Kaspersky Logo",
+      "aria": "Visit Kaspersky's website"
+    },
+    "paloalto": {
+      "alt": "Palo Alto Networks Logo",
+      "aria": "Visit Palo Alto Networks' website"
+    },
+    "zte": {
+      "alt": "ZTE Logo",
+      "aria": "Visit ZTE's website"
+    },
+    "dell": {
+      "alt": "Dell Logo",
+      "aria": "Visit DELL's website"
+    },
+    "vmware": {
+      "alt": "VMware Logo",
+      "aria": "Visit VMware's website"
+    },
+    "veem": {
+      "alt": "Veem Logo",
+      "aria": "Visit Veem's website"
+    },
+    "trendmicro": {
+      "alt": "TrendMicro Logo",
+      "aria": "Visit TrendMicro's website"
+    },
+    "netup": {
+      "alt": "NetUP Logo",
+      "aria": "Visit NetUP's website"
+    },
+    "tntsecure": {
+      "alt": "T&T Security Logo",
+      "aria": "Visit T&T Security's website"
+    },
+    "checkpoint": {
+      "alt": "CheckPoint Logo",
+      "aria": "Visit CheckPoint's website"
+    },
+    "fortinet": {
+      "alt": "FortiNet Logo",
+      "aria": "Visit FortiNet's website"
+    }
+  },
+
+  "services": {
+    "title": "Comprehensive IT Services",
+    "subtitle": "With years of experience and a deep approach, we implement reliable, easily scalable projects ready for integration into your existing infrastructure.",
+    "items": {
+      "dataCenters": {
+        "title": "Data Centers and Network Solutions",
+        "description": "Reliable and scalable solutions for data storage and network management, ensuring stable operation of your IT resources."
+      },
+      "dataProtection": {
+        "title": "Comprehensive Data Protection",
+        "description": "Advanced solutions to protect your information from external and internal threats, ensuring confidentiality and compliance with security standards."
+      },
+      "infrastructure": {
+        "title": "Infrastructure Solutions",
+        "description": "Continuous power and optimal temperature control to ensure the reliability and longevity of your systems."
+      },
+      "videoSurveillance": {
+        "title": "Intelligent Video Surveillance",
+        "description": "Modern monitoring and analytics systems to ensure security and efficient management of facilities."
+      },
+      "dispatching": {
+        "title": "Dispatching and Automation",
+        "description": "Innovative process management systems for monitoring, control, and increasing operational efficiency."
+      },
+      "ipTelephony": {
+        "title": "Modern IP Telephony Solutions",
+        "description": "Efficient communication for your business using the latest IP telephony technologies, providing flexibility and cost savings."
+      }
+    }
+  },
+
+  "teams": {
+    "title": "Our Values and Motivation",
+    "paragraph1": "At GGNetworks, we strive to create a world where businesses can operate safely and efficiently using the most advanced IT and engineering solutions. Our values are trust, innovation, and continuous development.",
+    "paragraph2": "We believe that every project is a step towards building a future where technology serves to foster business prosperity and improve lives.",
+    "imageAlt1": "GGNetworks Office - Image 1",
+    "imageAlt2": "GGNetworks Office - Image 2"
+  },
+
+  "projects": {
+    "title": "We Shape the Future with Leading Companies",
+    "subtitle": "We provide the best IT solutions for businesses, ensuring the reliability, security, and growth of your technologies.",
+    "loadMore": "More",
+    "items": {
+      "ktz": {
+        "name": "JSC \"NC \"KTZ\"",
+        "description": "Modernized PBX with IP-PBX at headquarters. First in Kazakhstan to implement WPA3-Enterprise EPA-TLS for WiFi6 security.",
+        "alt": "JSC \"NC \"KTZ\" Logo"
+      },
+      "kaztemirtrans": {
+        "name": "JSC \"Kaztemirtrans\"",
+        "description": "Deployed a secure corporate network to ensure stable communication across branches.",
+        "alt": "JSC \"Kaztemirtrans\" Logo"
+      },
+      "ttk": {
+        "name": "JSC \"TTK\"",
+        "description": "Installed and configured Huawei DWDM for high-speed, reliable backbone connectivity.",
+        "alt": "JSC \"TTK\" Logo"
+      },
+      "cik": {
+        "name": "JSC \"CIK\"",
+        "description": "Enhanced network security with NGFW CheckPoint solutions.",
+        "alt": "JSC \"CIK\" Logo"
+      },
+      "airastana": {
+        "name": "Air Astana",
+        "description": "Supplied TrendMicro security licenses and Cisco telecom equipment for seamless IT operations.",
+        "alt": "Air Astana Logo"
+      },
+      "astanatower": {
+        "name": "Business Center \"Astana Tower\"",
+        "description": "Delivered advanced IT infrastructure, including seamless WiFi, server solutions, and conference systems.",
+        "alt": "Astana Tower Logo"
+      },
+      "marriott": {
+        "name": "SAAD Hotel Astana",
+        "description": "Implemented TrendMicro cybersecurity solutions for top-tier data protection.",
+        "alt": "SAAD Hotel Astana Logo"
+      },
+      "eng-tech-center-udp": {
+        "name": "Engineering and Technical Center UDP RK",
+        "description": "Supplied Cisco networking and SmartNet support, plus security solutions from CheckPoint and TrendMicro.",
+        "alt": "Engineering and Technical Center UDP RK Logo"
+      },
+      "eng-center-mto": {
+        "name": "Engineering Center for MTO",
+        "description": "Delivered cybersecurity solutions to prevent unauthorized changes and ensure business process stability.",
+        "alt": "Engineering Center for MTO Logo"
+      },
+      "jusan-mobile": {
+        "name": "Jusan Mobile",
+        "description": "Provided Cisco SmartNet subscription and telecom equipment for seamless connectivity.",
+        "alt": "Jusan Mobile Logo"
+      },
+      "admin-buildings": {
+        "name": "Presidential and Government Administrative Buildings",
+        "description": "Supplied TrendMicro security licenses to ensure critical data protection.",
+        "alt": "Presidential and Government Administrative Buildings Logo"
+      },
+      "tnk-kazchrome": {
+        "name": "JSC \"TNK Kazchrome\"",
+        "description": "Technical service and maintenance of railway signaling systems for safe industrial operations.",
+        "alt": "JSC \"TNK Kazchrome\" Logo"
+      },
+      "health-ministry": {
+        "name": "Ministry of Healthcare RK",
+        "description": "Delivered Cisco SmartNet licenses to enhance IT security and system reliability.",
+        "alt": "Ministry of Healthcare RK Logo"
+      },
+      "labor-resource-center": {
+        "name": "Labor Resource Development Center",
+        "description": "Implemented Cisco SmartNet solutions for secure and efficient digital infrastructure.",
+        "alt": "Labor Resource Development Center Logo"
+      },
+      "nazarbayev-university": {
+        "name": "Nazarbayev University",
+        "description": "Supplied Cisco SmartNet to enhance communication and research IT capabilities.",
+        "alt": "Nazarbayev University Logo"
+      },
+      "qazaqgaz": {
+        "name": "NC \"QazaqGaz\"",
+        "description": "Provided IT management and technical support for uninterrupted operations.",
+        "alt": "NC \"QazaqGaz\" Logo"
+      },
+      "combridge": {
+        "name": "COMBRIDGE SRL",
+        "description": "Installed and configured Cisco networking solutions for Toyota Center Kazakhstan.",
+        "alt": "COMBRIDGE SRL Logo"
+      },
+      "agrarian-credit-corp": {
+        "name": "Agrarian Credit Corporation",
+        "description": "Implemented DLP \"CyberStrazh\" to ensure full data protection compliance.",
+        "alt": "Agrarian Credit Corporation Logo"
+      },
+      "national-testing-center": {
+        "name": "National Testing Center",
+        "description": "Conducted cybersecurity training to enhance IT security expertise.",
+        "alt": "National Testing Center Logo"
+      },
+      "qazpatent": {
+        "name": "National Institute of Intellectual Property",
+        "description": "Implemented IT solutions to safeguard intellectual property and digital assets.",
+        "alt": "National Institute of Intellectual Property Logo"
+      },
+      "bazis-construction": {
+        "name": "Bazis Construction",
+        "description": "Delivered CheckPoint security solutions for construction IT infrastructure protection.",
+        "alt": "Bazis Construction Logo"
+      },
+      "eurasian-bank": {
+        "name": "Eurasian Bank",
+        "description": "Supplied Cisco security licenses to ensure financial data protection.",
+        "alt": "Eurasian Bank Logo"
+      },
+      "nit": {
+        "name": "National Information Technologies JSC",
+        "description": "Provided industrial-grade power solutions to support critical e-government infrastructure.",
+        "alt": "National Information Technologies JSC Logo"
+      }
+    }
+  },
+
+  "certificates": {
+    "title": "Our Certifications",
+    "subtitle": "We take pride in our experts holding numerous certifications, confirming the highest level of competence in networking and IT solutions.",
+    "imageAlt": "Certificates",
+    "items": {
+      "ajer": "Advanced Junos Enterprise Routing (AJER)",
+      "ccna": "Cisco Certified Network Associate Routing and Switching",
+      "ccnp": "Cisco Certified Network Professional Enterprise",
+      "ccse": "Cisco Certified Specialist - Enterprise Core",
+      "hcia": "HCIA Routing and Switching",
+      "linuxEssentials": "Linux Essentials Professional Development",
+      "mikrotik": "MikroTik Certified Network Associate",
+      "paloAltoCloud": "PaloAlto Fundamentals of Cloud Security",
+      "paloAltoSOC": "PaloAlto Fundamentals of SOC (Security Operations Center)"
+    }
+  },
+
+  "map": {
+    "title": "Our Office",
+    "subtitle": "We are located in the center of Astana. Visit our office or contact us using the provided details.",
+    "links": {
+      "office": "GGNetworks",
+      "networkEquipment": "Network equipment in Astana",
+      "telecommunicationEquipment": "Telecommunication equipment in Astana"
+    },
+    "address": "Dostyk Street, 5/2, Astana, Kazakhstan.",
+    "contact": "Contact us:"
+  },
+
+  "footer": {
+    "followUs": "Follow Us",
+    "rightsReserved": "All rights reserved.",
+    "services": {
+      "title": "Services",
+      "consulting": "IT Consulting",
+      "infrastructure": "Infrastructure Support",
+      "cybersecurity": "Cybersecurity"
+    },
+    "social": {
+      "instagram": "Instagram"
+    },
+    "legal": {
+      "title": "Legal Info",
+      "privacyPolicy": "Privacy Policy"
+    }
+  },
+
+  "contactDialog": {
+    "triggerButton": "Contact Us",
+    "title": "Contact Us",
+    "description": "We’ll respond as soon as possible.",
+    "fullNameLabel": "Full Name",
+    "fullNamePlaceholder": "John Doe",
+    "emailLabel": "Email",
+    "emailPlaceholder": "example@example.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "submitButton": "Submit",
+    "toast": {
+      "successTitle": "Your request has been submitted!",
+      "successDescription": "Thank you for reaching out. We’ll get back to you shortly.",
+      "errorTitle": "Failed to send message",
+      "errorDescription": "An error occurred while sending your message. Please try again later."
+    },
+    "validation": {
+      "fullName": {
+        "minLength": "Full name must be at least 2 characters long."
+      },
+      "email": {
+        "invalid": "Please enter a valid email address."
+      },
+      "message": {
+        "minLength": "Message must be at least 5 characters long."
+      }
+    }
+  },
+
+  "seo": {
+    "title": "GGNetworks - Advanced IT Solutions",
+    "description": "GGNetworks offers reliable IT consulting, infrastructure support, and cybersecurity solutions tailored to your business needs.",
+    "keywords": "IT solutions, cybersecurity, infrastructure, Kazakhstan, consulting"
+  }
 }
