@@ -1,16 +1,25 @@
 version: "3"
+
 services:
   frontend:
     build: .
     container_name: frontend
     environment:
       NEXT_PUBLIC_CALLBACK_TOKEN: ${NEXT_PUBLIC_CALLBACK_TOKEN}
+      SMTP_HOST: ${SMTP_HOST}
+      SMTP_PORT: ${SMTP_PORT}
+      SMTP_SECURE: ${SMTP_SECURE}
+      SMTP_USER: ${SMTP_USER}
+      SMTP_PASS: ${SMTP_PASS}
+      COMPANY_EMAIL: ${COMPANY_EMAIL}
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
+      TELEGRAM_CHAT_ID: ${TELEGRAM_CHAT_ID}
 
   nginx:
     build:
-      context: ./nginx # Build the NGINX image from the nginx folder
+      context: ./nginx
     container_name: nginx
     ports:
-      - "5080:80" # Expose 5080 on the host and map to 80 in the container
+      - "5080:80"
     depends_on:
       - frontend
