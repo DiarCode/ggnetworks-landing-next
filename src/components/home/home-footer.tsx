@@ -9,12 +9,6 @@ const contact = {
 	email: 'info@ggnetworks.kz',
 }
 
-const services = [
-	{ labelKey: 'footer.services.consulting', href: '#services' },
-	{ labelKey: 'footer.services.infrastructure', href: '#services' },
-	{ labelKey: 'footer.services.cybersecurity', href: '#services' },
-]
-
 const socialLinks = [
 	{
 		platformKey: 'footer.social.instagram',
@@ -22,19 +16,23 @@ const socialLinks = [
 	},
 ]
 
-const legal = [{ labelKey: 'footer.legal.privacyPolicy', href: '#main' }]
+const legal = [
+	{ labelKey: 'footer.legal.privacyPolicy', href: '/terms/privacy' },
+	{ labelKey: 'footer.legal.servicePolicy', href: '/terms/service' },
+]
 
 export const HomeFooter: React.FC = () => {
 	const { t } = useTranslation()
+	const currentYear = new Date().getFullYear()
 
 	return (
 		<footer className='bg-gray-50 dark:bg-gray-800 p-4 sm:p-6'>
 			<div className='mx-auto max-w-screen-xl'>
-				<div className='md:flex md:justify-between'>
+				<div className='flex justify-between'>
 					{/* Brand and Contact Section */}
 					<div className='mb-6 md:mb-0'>
 						<Link href='/' className='flex items-center'>
-							<span className='font-semibold text-2xl dark:text-white whitespace-nowrap'>
+							<span className='font-semibold dark:text-white text-2xl whitespace-nowrap'>
 								GGNetworks
 							</span>
 						</Link>
@@ -55,26 +53,10 @@ export const HomeFooter: React.FC = () => {
 					</div>
 
 					{/* Links Section */}
-					<div className='gap-8 sm:gap-6 grid grid-cols-2 sm:grid-cols-3'>
-						{/* Services */}
-						<div>
-							<h2 className='mb-6 font-semibold text-gray-900 text-sm dark:text-white uppercase'>
-								{t('footer.services.title')}
-							</h2>
-							<ul className='text-gray-600 dark:text-gray-400'>
-								{services.map(({ labelKey, href }, index) => (
-									<li key={index} className='mb-4'>
-										<a href={href} className='hover:underline'>
-											{t(labelKey)}
-										</a>
-									</li>
-								))}
-							</ul>
-						</div>
-
+					<div className='gap-8 sm:gap-6 grid grid-cols-2'>
 						{/* Follow Us */}
 						<div>
-							<h2 className='mb-6 font-semibold text-gray-900 text-sm dark:text-white uppercase'>
+							<h2 className='mb-6 font-semibold text-gray-900 dark:text-white text-sm uppercase'>
 								{t('footer.followUs')}
 							</h2>
 							<ul className='text-gray-600 dark:text-gray-400'>
@@ -95,7 +77,7 @@ export const HomeFooter: React.FC = () => {
 
 						{/* Legal Info */}
 						<div>
-							<h2 className='mb-6 font-semibold text-gray-900 text-sm dark:text-white uppercase'>
+							<h2 className='mb-6 font-semibold text-gray-900 dark:text-white text-sm uppercase'>
 								{t('footer.legal.title')}
 							</h2>
 							<ul className='text-gray-600 dark:text-gray-400'>
@@ -111,12 +93,12 @@ export const HomeFooter: React.FC = () => {
 					</div>
 				</div>
 
-				<hr className='border-gray-200 dark:border-gray-700 sm:mx-auto my-6 lg:my-8' />
+				<hr className='sm:mx-auto my-6 lg:my-8 border-gray-200 dark:border-gray-700' />
 
 				{/* Footer Bottom Section */}
 				<div className='sm:flex sm:justify-start sm:items-center'>
-					<span className='text-gray-500 text-sm sm:text-center dark:text-gray-400'>
-						© 2025 GGNetworks. {t('footer.rightsReserved')}
+					<span className='text-gray-500 dark:text-gray-400 text-sm sm:text-center'>
+						© {currentYear} GGNetworks. {t('footer.rightsReserved')}
 					</span>
 				</div>
 			</div>

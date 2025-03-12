@@ -3,17 +3,16 @@
 import { useTranslation } from '@/i18n/i18n-client.config'
 import Link from 'next/link'
 import { useState } from 'react'
-import ChangeLocale from '../ui/change-locale'
 
 const menuItems = [
-	{ key: 'home', href: '#main' },
-	{ key: 'services', href: '#services' },
-	{ key: 'certificates', href: '#certificates' },
-	{ key: 'projects', href: '#projects' },
-	{ key: 'contacts', href: '#location' },
+	{ key: 'home', href: '/#main' },
+	{ key: 'services', href: '/#services' },
+	{ key: 'certificates', href: '/#certificates' },
+	{ key: 'projects', href: '/#projects' },
+	{ key: 'contacts', href: '/#location' },
 ]
 
-export const HomeHeader = () => {
+export const PolicyHeader = () => {
 	const { t } = useTranslation()
 	const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -53,7 +52,6 @@ export const HomeHeader = () => {
 						>
 							+7 7172 97 86 30
 						</a>
-						<ChangeLocale />
 					</div>
 
 					{/* Mobile Menu Toggle Button */}
@@ -109,7 +107,6 @@ export const HomeHeader = () => {
 							>
 								+7 7172 97 86 30
 							</a>
-							<ChangeLocale />
 						</div>
 					</div>
 				)}
