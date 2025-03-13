@@ -3,16 +3,16 @@ import { ticketsService, Ticket } from "@/services/tickets.service";
 
 export async function POST(req: Request) {
   try {
-    const { name, email, message }: Ticket = await req.json();
+    const { name, phone, message }: Ticket = await req.json();
 
-    if (!name || !email || !message) {
+    if (!name || !phone || !message) {
       return NextResponse.json(
         { error: "All fields are required" },
         { status: 400 }
       );
     }
 
-    const ticket: Ticket = { name, email, message };
+    const ticket: Ticket = { name, phone, message };
 
     await ticketsService.sendTicket(ticket);
 

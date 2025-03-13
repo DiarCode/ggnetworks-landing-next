@@ -1,8 +1,11 @@
-Dockerfile
+.git/
+.gitignore
+**/.gitkeep
+**/.DS_Store
+.next/
 .dockerignore
-node_modules
-npm-debug.log
+Dockerfile
+docker-compose.yml
+node_modules/
+nginx/
 README.md
-.next
-docker
-.git
