@@ -27,15 +27,22 @@ import { Textarea } from '@/components/ui/textarea'
 import { toast } from '@/hooks/use-toast'
 import { useTranslation } from '@/i18n/i18n-client.config'
 import { Ticket } from '@/services/tickets.service'
+import { parsePhoneNumberFromString } from 'libphonenumber-js'
 import { ChevronRight, Loader2 } from 'lucide-react'
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
 
 const FormSchema = z.object({
 	fullName: z
 		.string()
 		.min(2, { message: 'contactDialog.validation.fullName.minLength' }),
-	phone: z
-		.string()
-		.email({ message: 'contactDialog.validation.phone.invalid' }),
+	phone: z.string().refine(
+		val => {
+			const phoneNumber = parsePhoneNumberFromString(`+${val}`)
+			return phoneNumber?.isValid()
+		},
+		{ message: 'contactDialog.validation.phone.invalid' }
+	),
 	message: z
 		.string()
 		.min(5, { message: 'contactDialog.validation.message.minLength' }),
@@ -44,6 +51,7 @@ const FormSchema = z.object({
 export function HomeContactDialog() {
 	const { t } = useTranslation()
 	const [loading, setLoading] = useState(false)
+	const [open, setOpen] = useState(false)
 
 	const form = useForm<z.infer<typeof FormSchema>>({
 		resolver: zodResolver(FormSchema),
@@ -54,7 +62,7 @@ export function HomeContactDialog() {
 
 		const ticket: Ticket = {
 			name: data.fullName,
-			phone: data.phone,
+			phone: `+${data.phone}`,
 			message: data.message,
 		}
 
@@ -77,6 +85,7 @@ export function HomeContactDialog() {
 			})
 
 			form.reset()
+			setOpen(false)
 		} catch (error) {
 			console.error('Ticket submission error:', error)
 			toast({
@@ -90,7 +99,7 @@ export function HomeContactDialog() {
 	}
 
 	return (
-		<Dialog>
+		<Dialog open={open} onOpenChange={setOpen}>
 			<DialogTrigger asChild>
 				<Button
 					className='px-6 py-6 text-base'
@@ -132,7 +141,6 @@ export function HomeContactDialog() {
 							)}
 						/>
 
-						{/* Email */}
 						<FormField
 							control={form.control}
 							name='phone'
@@ -140,11 +148,19 @@ export function HomeContactDialog() {
 								<FormItem>
 									<FormLabel>{t('contactDialog.phoneLabel')}</FormLabel>
 									<FormControl>
-										<Input
-											type='tel'
+										<PhoneInput
+											country='kz'
 											placeholder={t('contactDialog.phonePlaceholder')}
-											{...field}
 											disabled={loading}
+											inputClass='min-w-full !border !border-input !bg-transparent !shadow-sm !placeholder:text-muted-foreground'
+											containerClass='!rounded-md'
+											buttonClass='!bg-slate-50 !border-input'
+											value={field.value}
+											onChange={value => field.onChange(value)}
+											inputProps={{
+												name: field.name,
+												disabled: loading,
+											}}
 										/>
 									</FormControl>
 									{fieldState.error?.message && (

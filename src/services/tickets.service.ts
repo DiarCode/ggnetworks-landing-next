@@ -79,14 +79,16 @@ class TicketsService {
 		const customerPhone = this.escapeMarkdown(ticket.phone)
 		const customerMessage = this.escapeMarkdown(ticket.message)
 
+		const whatsappLink = `https://wa.me/${customerPhone.replace(/\D/g, '')}`
+
 		const text = `
-━━━━━━━━━━━━━━━━
 📩 *Новый тикет от клиента*  
 
 📅 *Дата:* ${formattedDate}  
 🕒 *Время:* ${timestamp}  
 👤 *Имя клиента:* ${customerName}  
 ✉️ *Телефон:* ${customerPhone}  
+🔗 *WhatsApp:* [Открыть чат](${whatsappLink})  
 📝 *Сообщение:*  \`${customerMessage}\`  
 `
 
@@ -100,6 +102,7 @@ class TicketsService {
 					chat_id: this.telegramChatId,
 					text,
 					parse_mode: 'Markdown',
+					disable_web_page_preview: true,
 				}),
 			})
 
@@ -124,6 +127,7 @@ class TicketsService {
 			console.log('✅ Тикет успешно отправлен на Email и Telegram.')
 		} catch (error) {
 			console.error('❌ Ошибка при отправке тикета:', error)
+			throw new Error('Ticket sending failed: ' + (error as Error).message)
 		}
 	}
 }

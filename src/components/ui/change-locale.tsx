@@ -9,18 +9,16 @@ import {
 	SelectValue,
 } from '@/components/ui/select'
 import { useLocale } from '@/providers/locale.provider'
-import { useRouter } from 'next/navigation'
 import { useTransition } from 'react'
 
 export default function ChangeLocale() {
 	const locale = useLocale()
-	const router = useRouter()
 	const [isPending, startTransition] = useTransition()
 
 	const handleChange = (value: string) => {
 		startTransition(async () => {
 			await switchLocaleAction(value)
-			router.refresh()
+			window.location.reload()
 		})
 	}
 
