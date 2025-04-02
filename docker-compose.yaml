@@ -12,7 +12,7 @@ services:
       COMPANY_EMAIL: ${COMPANY_EMAIL}
       TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
       TELEGRAM_CHAT_ID: ${TELEGRAM_CHAT_ID}
-      2GIS_LINK: ${2GIS_LINK}
+      LINK_2GIS: ${LINK_2GIS}
 
   nginx:
     build:
