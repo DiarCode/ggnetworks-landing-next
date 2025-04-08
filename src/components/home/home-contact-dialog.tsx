@@ -150,6 +150,7 @@ export function HomeContactDialog() {
 									<FormControl>
 										<PhoneInput
 											country='kz'
+											excludeCountries={['ru']}
 											placeholder={t('contactDialog.phonePlaceholder')}
 											disabled={loading}
 											inputClass='min-w-full !border !border-input !bg-transparent !shadow-sm !placeholder:text-muted-foreground'

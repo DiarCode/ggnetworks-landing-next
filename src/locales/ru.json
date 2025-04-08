@@ -284,7 +284,7 @@
 		"title": "Свяжитесь с нами",
 		"description": "Мы ответим вам в ближайшее время.",
 		"fullNameLabel": "Полное имя",
-		"fullNamePlaceholder": "Иван Иванов",
+		"fullNamePlaceholder": "Введите ваше имя",
 		"phoneLabel": "Номер телефона",
 		"phonePlaceholder": "+7 XXX XXX XXXX",
 		"messageLabel": "Сообщение",

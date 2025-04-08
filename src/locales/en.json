@@ -291,7 +291,7 @@
 		"title": "Contact Us",
 		"description": "We’ll respond as soon as possible.",
 		"fullNameLabel": "Full Name",
-		"fullNamePlaceholder": "John Doe",
+		"fullNamePlaceholder": "Enter your name",
 		"phoneLabel": "Phone number",
 		"phonePlaceholder": "+7 XXX XXX XXXX",
 		"messageLabel": "Message",

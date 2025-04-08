@@ -33,42 +33,14 @@ export const HomeMap: React.FC = () => {
 					onClick={handleMapClick}
 				>
 					{/* Overlay hint (optional) */}
-					<div className='group-hover:bg-black/5 z-20 absolute inset-0 bg-transparent transition' />
-
-					{/* Links Section */}
-					<div className='top-0 left-0 z-30 absolute p-2 text-gray-300 text-xs pointer-events-none'>
-						<Link
-							href='https://yandex.kz/maps/ru/org/ggnetworks/231481640396/?lang=ru&utm_medium=mapframe&utm_source=maps'
-							className='block hover:underline'
-							target='_blank'
-							rel='noopener noreferrer'
-						>
-							{t('map.links.office')}
-						</Link>
-						<Link
-							href='https://yandex.kz/maps/ru/163/astana/category/network_equipment/184107775/?lang=ru&utm_medium=mapframe&utm_source=maps'
-							className='block hover:underline'
-							target='_blank'
-							rel='noopener noreferrer'
-						>
-							{t('map.links.networkEquipment')}
-						</Link>
-						<Link
-							href='https://yandex.kz/maps/ru/163/astana/category/telecommunication_equipment/184107777/?lang=ru&utm_medium=mapframe&utm_source=maps'
-							className='block hover:underline'
-							target='_blank'
-							rel='noopener noreferrer'
-						>
-							{t('map.links.telecommunicationEquipment')}
-						</Link>
-					</div>
+					<div className='group-hover:bg-black/5 z-10 absolute inset-0 bg-transparent transition' />
 
 					{/* Map Iframe */}
 					<iframe
 						src='https://yandex.kz/map-widget/v1/?indoorLevel=1&ll=71.422577%2C51.128353&mode=search&oid=231481640396&ol=biz&sctx=ZAAAAAgBEAAaKAoSCW3%2BX3Xk21FAEZLmj2ltkklAEhIJ8bkT7L%2FO5j8R6Gor9pfdxT8iBgABAgMEBSgKOABAowFIAWoCa3qdAc3MTD2gAQCoAQC9AbrDUHzCAQbMi4ar3gaCAgpHR05FdHdvcmtzigIAkgIAmgIMZGVza3RvcC1tYXBz&sll=71.422577%2C51.128353&sspn=0.026304%2C0.006307&text=GGNEtworks&z=16.76'
 						width='100%'
 						height='400'
-						className='z-10 relative pointer-events-auto'
+						className='relative pointer-events-auto'
 						allowFullScreen
 					></iframe>
 				</div>
