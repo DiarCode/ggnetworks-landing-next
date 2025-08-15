@@ -158,7 +158,8 @@ export default function PrivacyPolicyPage() {
             <strong>Телефон:</strong> +7-7172-97-86-30
           </li>
           <li>
-            <strong>Адрес:</strong> Улица Достык, 5/2, ВП-3, Астана, Казахстан.
+            <strong>Адрес:</strong> Улица Кабанбай Батыр, 45/3, корпус 2, н.п.
+            6, Астана, Казахстан.
           </li>
         </ul>
       </section>
